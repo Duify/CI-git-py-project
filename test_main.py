@@ -1,7 +1,7 @@
 import pytest
 import os
 import sys
-from main import add, subtract
+from src.main import add, subtract
 
 # Добавляем путь к пакету src в системный путь Python
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
