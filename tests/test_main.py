@@ -1,4 +1,6 @@
 import pytest
+import os
+import sys
 from src.main import add, subtract
 
 # Добавляем путь к пакету src в системный путь Python
